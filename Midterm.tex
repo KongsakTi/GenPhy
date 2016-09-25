@@ -1,0 +1,124 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{outlines}
+\usepackage{siunitx}
+\usepackage[margin=.5in]{geometry}
+
+
+
+
+\begin{document}
+	
+\title{General Physics Midterm Review}
+\author{Kongsak Tipakornrojanakit}
+\date{}
+\maketitle
+
+
+	
+%\textbf{Formulas:}
+%
+%
+%\begin{alignat*}{3}
+%&\mbox{Kelvin & Celsius} 				&\mbox{C} 			&=  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}\\
+%&\mbox{Future Value Interest Factor} 	&\mbox{FVIF(r, t)} 	&=  (1 + r)^t\\ 
+%&\mbox{Present Value Interest Factor} 	&\mbox{PVIF(r, t)} 	&=  \frac{1}{(1 + r)^t}\\ 
+%&\mbox{Equal Payment }  				&\mbox{C} =  \frac{\mbox{PVA}}{\mbox{PVIFA}(r, t)}
+%\end{alignat*}
+
+\begin{outline}[enumerate]
+\1 A poorly designed electric device has two bolts attached to different parts of the device that almost touch each other in its interior, as shown. When they touch, a short circuit will develop and damage the device.If the initial gap between the ends of the bolts is \SI{5.0}{\micro\meter} at \SI{27}{\celsius}, at what temperature will the bolts touch?
+	\2 $\mbox{Steel}_{\tiny{\mbox{length}}} = \SI{0.01}{\meter} = 1 \times 10^{-2} \SI{}{\meter}$
+	\2 $\mbox{Brass}_{\tiny{\mbox{length}}} = \SI{0.03}{\meter} = 3 \times 10^{-2} \SI{}{\meter}$
+	\2 $\mbox{Gap}_{\tiny{\mbox{length}}} = \SI{0.05}{\micro\meter} = 5 \times 10^{-6} \SI{}{\meter}$
+	\2 $\mbox{\alpha}_{\tiny{\mbox{Steel}}} = 11 \times 10^{-6} \, \SI{}{\celsius}^{-1}$
+	\2 $\mbox{\alpha}_{\tiny{\mbox{Brass}}} = 19 \times 10^{-6} \, \SI{}{\celsius}^{-1}$
+	\2 $\triangle L = \alpha L_0 \triangle T $
+	\2 $\triangle L = \mbox{Gap}_{\tiny{\mbox{length}}} = 5 \times 10^{-6} \SI{}{\meter}$
+
+
+\begin{alignat*}{2}
+\triangle T 	&= \dfrac{\triangle L}{\alpha L_0} \\
+				&= \dfrac{\mbox{Gap}_{\tiny{\mbox{length}}}}
+				{\mbox{\alpha}_{\tiny{\mbox{Steel}}}\mbox{Steel}_{\tiny{\mbox{length}}} +  	
+				 \mbox{\alpha}_{\tiny{\mbox{Brass}}}\mbox{Brass}_{\tiny{\mbox{length}}}} \, \SI{}{\celsius}\\
+				&= \dfrac{5 \times 10^{-6}}
+				{(11 \times 10^{-6} \times 1 \times 10^{-2}) +  	
+				 (19 \times 10^{-6} \times 3 \times 10^{-2})} \, \SI{}{\celsius}\\
+				&= \dfrac{5 \times 10^{-6}}
+				{(11 \times 10^{-8}) + (57 \times 10^{-8})} \, \SI{}{\celsius}\\
+				&= \dfrac{5 \times 10^{-6} \SI{}{\meter}}
+				{(68 \times 10^{-8})} \, \SI{}{\celsius}\\
+				&= \dfrac{5}
+				{(68 \times 10^{-2})} \, \SI{}{\celsius}\\
+				&= \dfrac{5}
+				{(68 \times 10^{-2})} \, \SI{}{\celsius}\\
+				&= 7.3529 \, \SI{}{\celsius} \\\\
+T_1 			&= T_0 + \triangle T \, \SI{}{\celsius} \\
+				&= 27 + 7.3529 \, \SI{}{\celsius} \\
+				&= 34.3529 \, \SI{}{\celsius}
+\end{alignat*}	
+
+
+
+
+
+\newpage
+
+
+
+
+
+
+\1 \SI{500}{\gram} of ice is added to an insulated cup that contains \SI{200}{g} of water at \SI{50.0}{\celsius}. What is the final temperature.
+	\2 $\mbox{Ice}_{\tiny{\mbox{mass}}} = \SI{500}{\gram} = 5 \times 10^{-1} \SI{}{\kilogram}$
+	\2 $\mbox{Water}_{\tiny{\mbox{mass}}} = \SI{200}{\gram} = 2 \times 10^{-1} \SI{}{\kilogram}$
+	\2 $\mbox{Ice}_{\tiny{\mbox{temp}}} = \SI{0}{\celsius}$
+	\2 $\mbox{Water}_{\tiny{\mbox{temp}}} = \SI{50}{\celsius}$
+	\2 $\mbox{c}_{\tiny{\mbox{water}}} = 4.186 \times 10^3  \, \dfrac{\SI{}{\joule}}{\SI{}{\kilogram}}\SI{}{\celsius}$
+	\2 $\mbox{c}_{\tiny{\mbox{ice}}} = 2.090 \times 10^3 \, \dfrac{\SI{}{\joule}}{\SI{}{\kilogram}}\SI{}{\celsius}$
+	\2 $\mbox{L}_{\tiny{\mbox{ice}}} = 3.33 \times 10^5  \, \dfrac{\SI{}{\joule}}{\SI{}{\kilogram}}$
+	\2 $\mbox{Q}_{\tiny{\mbox{water}}} = -\mbox{Q}_{\tiny{\mbox{ice}}}$
+	\2 $Q = mc \triangle T$
+	\2 $Q = mL $
+	
+	
+\begin{alignat*}{2}
+\mbox{Q}_{\tiny{\mbox{water}}} &= -\mbox{Q}_{\tiny{\mbox{ice}}} \\
+\mbox{Water}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\mbox{Water}_{\mbox{\tiny{temp}}_1} - \mbox{Water}_{\mbox{\tiny{temp}}_0})
+&= 
+-((\mbox{L}_{\tiny{\mbox{ice}}} \times \mbox{Ice}_{\tiny{\mbox{mass}}}) + 
+(\mbox{Ice}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{Ice}}} \times (\mbox{Ice}_{\mbox{\tiny{temp}}_1} - \mbox{Ice}_{\mbox{\tiny{temp}}_0}))) \\
+2 \times 10^{-1} \times 4.186 \times 10^3 \times (T_1 - 50) 
+&=
+-(5 \times 10^{-1} \times 3.33 \times 10^5) -
+(5 \times 10^{-1} \times 2.090 \times 10^3 \times (T_1 - 0)) \\
+8.372 \times 10^2 \times (T_1 - 50)
+&=
+-(16.5 \times 10^4) -
+(10.45 \times 10^2 \times (T_1 - 0)) \\
+8.372 \times (T_1 - 50)
+&=
+-(16.5 \times 10^2) -
+(10.45 \times (T_1 - 0)) \\
+8.372T_1 - 418.6
+&=
+-(16.5 \times 10^2) -
+10.45T_1 \\ 
+18.822T_1 - 418.6 
+&= -(16.5 \times 10^2)\\
+18.882T_1 &= \dfrac{16.5 \times 10^2}{4.186 \times 10^2} \\
+18.882T_1 &= 3.9417 \\ 
+T_1 &= \SI{0.2094}{\celsius}
+\end{alignat*}	
+	
+	
+\end{outline}
+
+
+		
+	
+	
+
+
+\end{document}
