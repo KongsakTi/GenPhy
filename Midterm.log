@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.17)  25 SEP 2016 15:40
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.9.17)  25 SEP 2016 20:29
  restricted system commands enabled.
 **Midterm.tex
 (./Midterm.tex
@@ -552,58 +552,55 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 79.
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 80.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 81.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 80.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 81.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 113.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 111.
 
 [2] (./Midterm.aux))
 
@@ -612,7 +609,7 @@ Here is how much of LuaTeX's memory you used:
  100000,266212 words of node,token memory allocated
  3590 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 453 glue, 1 kern, 50 glue_spec, 1 write nodes
-   avail lists: 2:36,3:128,4:6,5:118,6:734,7:606,8:61,9:503,10:4,11:24
+   avail lists: 2:34,3:126,4:6,5:118,6:734,7:555,8:61,9:503,10:4,11:24
  14094 multiletter control sequences out of 65536+600000
  54 fonts using 2243431 bytes
  36i,15n,43p,441b,1106s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -626,7 +623,7 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Midterm.pdf (2 pages, 96854 bytes).
+Output written on Midterm.pdf (2 pages, 96369 bytes).
 
 PDF statistics: 48 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream

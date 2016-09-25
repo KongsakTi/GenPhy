@@ -76,7 +76,6 @@ T_1 			&= T_0 + \triangle T \, \SI{}{\celsius} \\
 	\2 $\mbox{Ice}_{\tiny{\mbox{temp}}} = \SI{0}{\celsius}$
 	\2 $\mbox{Water}_{\tiny{\mbox{temp}}} = \SI{50}{\celsius}$
 	\2 $\mbox{c}_{\tiny{\mbox{water}}} = 4.186 \times 10^3  \, \dfrac{\SI{}{\joule}}{\SI{}{\kilogram}}\SI{}{\celsius}$
-	\2 $\mbox{c}_{\tiny{\mbox{ice}}} = 2.090 \times 10^3 \, \dfrac{\SI{}{\joule}}{\SI{}{\kilogram}}\SI{}{\celsius}$
 	\2 $\mbox{L}_{\tiny{\mbox{ice}}} = 3.33 \times 10^5  \, \dfrac{\SI{}{\joule}}{\SI{}{\kilogram}}$
 	\2 $\mbox{Q}_{\tiny{\mbox{water}}} = -\mbox{Q}_{\tiny{\mbox{ice}}}$
 	\2 $Q = mc \triangle T$
@@ -88,28 +87,27 @@ T_1 			&= T_0 + \triangle T \, \SI{}{\celsius} \\
 \mbox{Water}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\mbox{Water}_{\mbox{\tiny{temp}}_1} - \mbox{Water}_{\mbox{\tiny{temp}}_0})
 &= 
 -((\mbox{L}_{\tiny{\mbox{ice}}} \times \mbox{Ice}_{\tiny{\mbox{mass}}}) + 
-(\mbox{Ice}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{Ice}}} \times (\mbox{Ice}_{\mbox{\tiny{temp}}_1} - \mbox{Ice}_{\mbox{\tiny{temp}}_0}))) \\
+(\mbox{Ice}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\mbox{Ice}_{\mbox{\tiny{temp}}_1} - \mbox{Ice}_{\mbox{\tiny{temp}}_0}))) \\
 2 \times 10^{-1} \times 4.186 \times 10^3 \times (T_1 - 50) 
 &=
 -(5 \times 10^{-1} \times 3.33 \times 10^5) -
-(5 \times 10^{-1} \times 2.090 \times 10^3 \times (T_1 - 0)) \\
+(5 \times 10^{-1} \times 4.186 \times 10^3 \times (T_1 - 0)) \\
 8.372 \times 10^2 \times (T_1 - 50)
 &=
 -(16.5 \times 10^4) -
-(10.45 \times 10^2 \times (T_1 - 0)) \\
+(20.93 \times 10^2 \times (T_1 - 0)) \\
 8.372 \times (T_1 - 50)
 &=
 -(16.5 \times 10^2) -
-(10.45 \times (T_1 - 0)) \\
+(20.93 \times (T_1 - 0)) \\
 8.372T_1 - 418.6
 &=
 -(16.5 \times 10^2) -
-10.45T_1 \\ 
-18.822T_1 - 418.6 
+20.93T_1 \\ 
+29.302T_1 - 418.6 
 &= -(16.5 \times 10^2)\\
-18.882T_1 &= \dfrac{16.5 \times 10^2}{4.186 \times 10^2} \\
-18.882T_1 &= 3.9417 \\ 
-T_1 &= \SI{0.2094}{\celsius}
+29.302T_1 &= -16.5 \times 10^2 + 4.186 \times 10^2 \\
+29.302T_1 &= -1.2314 \times 10^3
 \end{alignat*}	
 	
 	
