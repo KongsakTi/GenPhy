@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{outlines}
 \usepackage{siunitx}
 \usepackage[margin=.5in]{geometry}
@@ -81,35 +82,58 @@ T_1 			&= T_0 + \triangle T \, \SI{}{\celsius} \\
 	\2 $Q = mc \triangle T$
 	\2 $Q = mL $
 	
+	\2 \textbf{False Assumption:} All the ice is melted \\\\
+	
+	\textbf{How much $\mbox{Ice}_{\tiny{\mbox{mass}}}$ would it take for $\mbox{Water}_{\tiny{\mbox{temp}}}$ to bring to $0\SI{}{\celsius}$ ?}
 	
 \begin{alignat*}{2}
 \mbox{Q}_{\tiny{\mbox{water}}} &= -\mbox{Q}_{\tiny{\mbox{ice}}} \\
-\mbox{Water}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\mbox{Water}_{\mbox{\tiny{temp}}_1} - \mbox{Water}_{\mbox{\tiny{temp}}_0})
-&= 
--((\mbox{L}_{\tiny{\mbox{ice}}} \times \mbox{Ice}_{\tiny{\mbox{mass}}}) + 
-(\mbox{Ice}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\mbox{Ice}_{\mbox{\tiny{temp}}_1} - \mbox{Ice}_{\mbox{\tiny{temp}}_0}))) \\
-2 \times 10^{-1} \times 4.186 \times 10^3 \times (T_1 - 50) 
-&=
--(5 \times 10^{-1} \times 3.33 \times 10^5) -
-(5 \times 10^{-1} \times 4.186 \times 10^3 \times (T_1 - 0)) \\
-8.372 \times 10^2 \times (T_1 - 50)
-&=
--(16.5 \times 10^4) -
-(20.93 \times 10^2 \times (T_1 - 0)) \\
-8.372 \times (T_1 - 50)
-&=
--(16.5 \times 10^2) -
-(20.93 \times (T_1 - 0)) \\
-8.372T_1 - 418.6
-&=
--(16.5 \times 10^2) -
-20.93T_1 \\ 
-29.302T_1 - 418.6 
-&= -(16.5 \times 10^2)\\
-29.302T_1 &= -16.5 \times 10^2 + 4.186 \times 10^2 \\
-29.302T_1 &= -1.2314 \times 10^3
+\mbox{Water}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\SI{0}{\celsius} - \mbox{Water}_{\mbox{\tiny{temp}}_0})
+&= -\mbox{L}_{\tiny{\mbox{ice}}} \times \mbox{Ice}_{\tiny{\mbox{mass}}} \\
+2 \times 10^{-1} \times 4.186 \times 10^3 \times (0 - 50) 
+&= -3.33 \times 10^5 \times \mbox{Ice}_{\tiny{\mbox{mass}}} \\
+\dfrac{2 \times 10^{-1} \times 4.186 \times 10^3 \times -50}{-3.33 \times 10^5}
+&= \mbox{Ice}_{\tiny{\mbox{mass}}} \\
+\dfrac{2 \times 4.186 \times 5}{3.33 \times 10^2}
+&= \mbox{Ice}_{\tiny{\mbox{mass}}} \\
+\dfrac{4.186}{3.33 \times 10^1}
+&= \mbox{Ice}_{\tiny{\mbox{mass}}} \\
+1.257 \times 10^{-1}
+&= \mbox{Ice}_{\tiny{\mbox{mass}}} \\
+\SI{125.7}{\gram}
+&= \mbox{Ice}_{\tiny{\mbox{mass}}} \\
 \end{alignat*}	
+$\because$ It takes $\SI{125.7}{\gram}$ of Ice to bring $\mbox{Water}_{\mbox{\tiny{temp}}}$ to $\SI{0}{\celsius}$ \\\\
+$\therefore$ The final temperature is $0\SI{}{\celsius}$ with $\SI{325.7}{\gram}$ of Water and $\SI{374.3}{\gram}$ of Ice
 	
+	
+%\begin{alignat*}{2}
+%\mbox{Q}_{\tiny{\mbox{water}}} &= -\mbox{Q}_{\tiny{\mbox{ice}}} \\
+%\mbox{Water}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\mbox{Water}_{\mbox{\tiny{temp}}_1} - \mbox{Water}_{\mbox{\tiny{temp}}_0})
+%&= 
+%-((\mbox{L}_{\tiny{\mbox{ice}}} \times \mbox{Ice}_{\tiny{\mbox{mass}}}) + 
+%(\mbox{Ice}_{\tiny{\mbox{mass}}} \times \mbox{c}_{\tiny{\mbox{water}}} \times (\mbox{Ice}_{\mbox{\tiny{temp}}_1} - \mbox{Ice}_{\mbox{\tiny{temp}}_0}))) \\
+%2 \times 10^{-1} \times 4.186 \times 10^3 \times (0 - 50) 
+%&=
+%-(5 \times 10^{-1} \times 3.33 \times 10^5) -
+%(5 \times 10^{-1} \times 4.186 \times 10^3 \times (T_1 - 0)) \\
+%8.372 \times 10^2 \times (T_1 - 50)
+%&=
+%-(16.5 \times 10^4) -
+%(20.93 \times 10^2 \times (T_1 - 0)) \\
+%8.372 \times (T_1 - 50)
+%&=
+%-(16.5 \times 10^2) -
+%(20.93 \times (T_1 - 0)) \\
+%8.372T_1 - 418.6
+%&=
+%-(16.5 \times 10^2) -
+%20.93T_1 \\ 
+%29.302T_1 - 418.6 
+%&= -(16.5 \times 10^2)\\
+%29.302T_1 &= -16.5 \times 10^2 + 4.186 \times 10^2 \\
+%29.302T_1 &= -1.2314 \times 10^3
+%\end{alignat*}	
 	
 \end{outline}
 
